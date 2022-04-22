@@ -1,0 +1,23 @@
+img {border: 0;}
+
+h2{
+	font-family: 'PT Serif', serif;
+	font-size: 28px;
+	font-weight:normal;
+	color:#333333;
+	text-decoration:none;
+	}
+
+p, span{
+	font-family: 'PT Serif', serif;
+	font-size: 14px;
+	font-weight:normal;
+	color:#000000;
+	text-decoration:none;
+	}
+
+a:link{font-family: 'PT Sans', sans-serif; font-size: 14px; font-weight:normal; color:#0099CC;}
+a:visited{font-family: 'PT Sans', sans-serif; font-size: 14px; font-weight:normal; color:#0099CC;}
+a:hover{font-family: 'PT Sans', sans-serif; font-size: 14px; font-weight:normal; color:#f43636;}
+a:focus{font-family: 'PT Sans', sans-serif; font-size: 14px; font-weight:normal; color:#0099CC;}
+a:active{font-family: 'PT Sans', sans-serif; font-size: 14px; font-weight:normal; color:#0099CC;}

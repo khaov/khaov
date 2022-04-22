@@ -1,0 +1,9 @@
+.main-menu-list{ height:36px; overflow:hidden;}
+		.main-menu-list li {width: 14%; display: inline; text-align: center;}
+		
+.sub-menu-list{height:53px; overflow:hidden;}
+		.sub-menu-list li{width: 14%; display:inline; text-align: center;}		
+			.sub-menu-list table{width:90%; text-align: center;}			
+						
+						
+		.customer-area li{width:33%; display:inline; text-align:center;}
