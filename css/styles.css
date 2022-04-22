@@ -1,7 +1,9 @@
+body{}
+
 img {border: 0;}
 
 h2{
-	font-family: 'PT Serif', serif;
+	font-family: 'Open Sans', sans-serif !important;
 	font-size: 28px;
 	font-weight:normal;
 	color:#333333;
@@ -15,6 +17,8 @@ p, span{
 	color:#000000;
 	text-decoration:none;
 	}
+
+a{outline: none;}
 
 a:link{font-family: 'PT Sans', sans-serif; font-size: 14px; font-weight:normal; color:#0099CC;}
 a:visited{font-family: 'PT Sans', sans-serif; font-size: 14px; font-weight:normal; color:#0099CC;}

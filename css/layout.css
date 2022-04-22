@@ -3,45 +3,53 @@ html, body, #wrap {height: 100%;}
 	body > #wrap {height: auto; min-height: 100%;}
 		#header{height:100px;}
 		#content {padding-bottom: 100px;}
-		#footer {height: 100px; position: relative; margin-top: -60px; clear:both;}
+		#footer {height: 100px; position: relative; margin-top: -100px; clear:both;}
 			.data{width: 900px; left: 50%; margin: 0 0 0 -450px; position: relative;}
 				.data-header{height:100px;}
 				
 				.logo{
 					display:block;
 					float:left;
-					margin:10px 0 0 0;
-					font-family: 'PT Sans', sans-serif;
+					margin:20px 0 0 0;
+					font-family: 'Open Sans', sans-serif !important;
 					font-size: 48px !important;
 					font-weight:normal;
 					color:#666666 !important;
 					text-decoration:none;
 					text-transform:uppercase;
 					}	
-				.vocation{
-					font-family: 'PT Sans', sans-serif;
-					font-size: 14px !important;
-					font-weight:normal;
-					color:#666666 !important;
-					text-decoration:none;
-                                        text-transform:none !important;
-					margin-top: -10px;
+				#menu{
 					display: block;
+					float: left;
+					margin: 52px 0 0 30px;
+					padding: 0;
+					list-style-type: none;
 					}
+					#menu li{
+						float: left;
+						margin: 0 20px 0 0;
+						}
+						#menu li a{
+							/* Font */
+							font-family: 'Open Sans', sans-serif !important;
+							font-size: 14px !important;
+							font-weight:normal;
+							text-transform:none !important;
+							}
 
 				.contacts{margin:12px 0 0 0; padding:0; list-style-type:none; float:right;}
 					.contacts li{}
 						.contacts img{float:left; margin:0 8px 0 0;}
 						.contacts a{overflow:hidden;}
 						.contacts span{
-							font-family: 'PT Sans', sans-serif;
+							font-family: 'Open Sans', sans-serif !important;
 							font-size: 14px; 
 							font-weight:normal;
 							color:#666666;
 							overflow:hidden;
 							}
 				.headline{
-					font-family: 'PT Sans', sans-serif;
+					font-family: 'Open Sans', sans-serif !important;
 					font-size: 16px !important;
 					font-weight:normal;
 					color:#333333 !important;
@@ -51,16 +59,16 @@ html, body, #wrap {height: 100%;}
 					margin:0 25px 0 0;
 					}
 				.timeline-block{margin:20px 0 0 0;}
-					.timeline{margin:0; padding:0; overflow:hidden; list-style-type:none; width: 32%; text-align: justify;}
+					.timeline{margin:0; padding:0; overflow:hidden; list-style-type:none; width: 55%; text-align: justify;}
 						.timeline li{display:inline-block;}
 					
 						.timeline .active a {
-									background-color: #EBEBCF;
-									padding: 0 4px 2px 4px;
-									text-decoration:none;
-									color:#333333 !important;
-										}
-				.showcase{width:100%; text-align: justify;}
+							background-color: #EBEBCF;
+							padding: 0 4px 2px 4px;
+							text-decoration:none;
+							color:#333333 !important;
+							}
+				.showcase{width:100%; padding: 0 0 40px 0; text-align: justify;}
 					.teaser{height: 260px; vertical-align:top; display:inline-block;}
 						.teaser-image{height:200px;}
 						.teaser-title{
@@ -75,6 +83,57 @@ html, body, #wrap {height: 100%;}
 							
 				.social{width:125px; margin:42px 50px 0 0; padding:0; list-style-type:none; text-align: justify; float:right;}
 					.social li{display:inline-block;}
+
+				/* Columns */
+
+				.column.left{width: 390px; float: left; margin:0 35px 0 0;}
+				.column.right{overflow: hidden;}
+
+				/* About */
+
+				.about{}
+					.about .preview{}
+
+						.about h2 {font-family: 'Open Sans', sans-serif !important; font-size: 24px; font-weight: normal; color: #000000; line-height: 30px;}
+						.about h3 {font-family: 'Open Sans', sans-serif !important; font-size: 18px; font-weight: normal; color: #000000; line-height: 24px;}
+
+						.about .preview ul{
+							margin: 0 0 0 4px;
+							padding: 0;
+							list-style-type: none;
+
+							/* Font */
+							font-family: 'Open Sans', sans-serif !important;
+							font-style: normal;
+							font-weight: normal;
+							font-size: 14px;
+							color: #000000;
+							line-height: 20px;
+							}
+							.about .preview ul li{
+								padding: 0 0 20px 17px;
+								background: url(/img/icons/about/pointer.jpg) left 9px no-repeat;
+								}
+
+					.about .biography{
+						margin: -4px 0 0 0;
+						padding: 0;
+						list-style-type: none;
+						}
+						.about .biography li{
+							margin:0 0 20px 0;
+
+							/* Font */
+							font-family: 'Open Sans', sans-serif !important;
+							font-style: normal;
+							font-weight: normal;
+							font-size: 12px;
+							line-height: 18px;
+							}
+							.about .biography li span{display:block;}
+								.about .biography li span:first-child{color: #000000;}
+								.about .biography li span:last-child {color: #666666;}
+
 .border-top{border-top:1px solid #d5d5d5;}
 .border-bottom{border-bottom:1px solid #d5d5d5;}
 .stick{width:100%; display:inline-block;}
